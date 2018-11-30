@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title> Contact</title>
+
+    <link rel="stylesheet" type="text/css" href="styl-contact.css">
+    <style>
+        body{
+        background:rgba(245, 222, 179, 0.534);
+        background-position: cover;  
+        }
+        .nav {
+            
+            float: right;
+            color:#777777;
+            list-style: none;
+            text-align: center;
+            padding: 50px ;
+            margin-top: 0px;
+            margin-bottom: 30px;
+            padding: 16px 8px 16px 8px;
+            
+
+        }
+        .nav > li {
+            display:inline-block;
+            padding: 25px 0 25px 0;
+        }
+        .nav > li a {
+            text-decoration: none;
+            color: #777777;
+        }
+        .nav > li > a:hover{
+            color: #c1c1c1;
+        }
+        h1 {
+            text-transform: capitalize;
+            background-color: #4aaaa5;
+            color: white;
+            margin-bottom: 30px;
+            margin-top: 0px;
+            padding: 16px 8px 16px 8px;
+            width: 214 px;
+            text-align: center;
+            display: inline-block;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .wrapper {
+            width:700px;
+            padding: 10px;
+            background:#ffffff;
+            font-family:Arial, Helvetica, sans-serif;
+            position: center;
+            margin: auto;
+        }
+
+        .wrapper h2{
+            text-transform: capitalize;
+            color: #4aaaa5;
+        }
+
+
+        footer {
+            margin-top: 100px;
+            margin-bottom: 0px;
+            background-color:#666666;
+            color:#ffffff;
+            font-size: xx-small;
+            padding: 10px 10px 0px 10px ;
+            text-align: center;
+            border-top: 5px solid #4aaaa5;
+        }
+
+        
+
+  </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1> Sally Alrawi</h1>
+        
+            <ul class="nav">
+                <li>
+                    <a href="#">About|</a>
+                </li>
+                <li>
+                    <a href="#">portifolio|</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="wrapper">
+        <h2>Contact</h2>
+
+        <form id="Contact-form" method="POST" action="">
+            Name: <br>
+            <input name="name" type="text" class="form-control" placeholder="Sally Alrawi" required>
+            <br>
+            Email:<br>
+            <input type="text" name="mail" placeholder="sallyakrum83@gmail.com">
+            <br>
+            Message:<br>
+            <textarea name="message" class="form-control" placeholder="message" rows="10" required></textarea>
+            <br> <br> <br>
+
+            <input type="submit" class="form-control submit" value="submit">
+
+        </form>
+    </div>
+    </div>
+    <footer> copy rights</footer>
+    </div>
+</body>
+
+</html>

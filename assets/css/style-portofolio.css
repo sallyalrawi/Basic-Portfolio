@@ -1,0 +1,93 @@
+body {
+    background: rgba(245, 222, 179, 0.534);
+    background-position: cover;
+}
+
+.nav {
+
+    float: right;
+    color: #777777;
+    list-style: none;
+    text-align: center;
+    padding: 50px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    padding: 16px 8px 16px 8px;
+
+
+}
+
+.nav>li {
+    display: inline-block;
+    padding: 25px 0 25px 0;
+}
+
+.nav>li a {
+    text-decoration: none;
+    color: #777777;
+}
+
+.nav>li>a:hover {
+    color: #c1c1c1;
+}
+
+h1 {
+    text-transform: capitalize;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    padding: 16px 8px 16px 8px;
+    width: 214 px;
+    text-align: center;
+    display: inline-block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: #777777;
+}
+
+.wrapper {
+    width: 700px;
+    padding: 10px;
+    background: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    position: center;
+    margin: auto;
+}
+
+.wrapper h2 {
+    text-transform: capitalize;
+    color: #4aaaa5;
+}
+
+
+.container  .box  .port1 img .port2 img .port3 img .port4 img .port5 img 
+{
+    max-width: 100%;
+    transition: trnsform 2s;
+    flex-direction: row;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    display:flex;
+    margin: 10px;
+    flex-wrap: wrap;
+    flex-direction:row;
+    box-sizing: border-box;
+    display: inline-block;
+
+}
+.container  .box:hover  .port1 img .port2 img .port3 img .port4 img .port5 img 
+{
+    transform: scale(1.2)
+}
+
+footer {
+    margin-top: 100px;
+    margin-bottom: 0px;
+    background-color: #666666;
+    color: #ffffff;
+    font-size: xx-small;
+    padding: 10px 10px 0px 10px;
+    text-align: center;
+    border-top: 5px solid #4aaaa5;
+}
